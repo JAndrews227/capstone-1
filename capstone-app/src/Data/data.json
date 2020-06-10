@@ -1,0 +1,128 @@
+
+ [
+
+    {
+
+    "id": 1,
+    "title":"TX Blended Whiskey",
+    "price": 29.99,
+    "distillery":  "Firestone & Robertson Distilling Co.",
+    "location": "Fort Worth, TX",
+    "keyword": ["Whiskey", "Blended"],
+    "img": "/images/TXWhiskey.jpg",
+    "quantity": 20
+    
+},
+{
+    "id": 2,
+    "title":"Texas Ranger",
+    "price": 29.99,
+    "distillery":  "Rebecca Creek Distillery",
+    "location": "Timberwood Park, TX",
+    "keyword": ["Whiskey", "Blended"],
+    "img": "/images/TXRanger.jpg",
+    "quantity": 20
+    
+},
+{
+    "id": 3,
+    "title":"Western Son",
+    "price": 29.99,
+    "distillery":  "Western Son Distillery",
+    "location": "Pilot Point, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/WesternSon.jpg",
+    "quantity": 20
+    
+},
+{
+    "id": 4,
+    "title":"Silver Star Whiskey",
+    "price": 29.99,
+    "distillery":  "Trinity River Distillery",
+    "location": "Fort Worth, TX",
+    "keyword": ["Whiskey"],
+    "img": "/images/SilverStar.jpg",
+    "quantity": 20
+    
+},
+{
+    "id": 5,
+    "title":"Garrison Brothers",
+    "price": 79.99,
+    "distillery":  "Garrison Brothers Distillery",
+    "location": "Hye, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/GarrisonBros.jpg",
+    "quantity":5
+    
+},
+{
+    "id": 6,
+    "title":"Tito's Vodka",
+    "price": 29.99,
+    "distillery":  "Mockingbird Distillery",
+    "location": "Austin, TX",
+    "keyword": ["Vodka"],
+    "img": "./images/Titos.jpg",
+    "quantity": 20
+    
+},
+{
+    "id": 7,
+    "title":"TX Blended Whiskey",
+    "price": 29.99,
+    "distillery":  "Rebecca Creek Distillery",
+    "location": "Timberwood Park, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/Rebecca.jpeg",
+    "quantity": 20
+    
+},
+{
+    "id": 8,
+    "title":"Deep Eddy Vodka",
+    "price": 29.99,
+    "distillery":  "Deep Eddy Vodka Distillery",
+    "location": "Buda, TX",
+    "keyword": ["Vodka"],
+    "img": "./images/DeepEddy.jpg",
+    "quantity": 15
+    
+},
+{
+    "id": 9,
+    "title":"Balcones",
+    "price": 29.99,
+    "distillery":  "Balcones Distilling",
+    "location": "Waco, TX",
+    "keyword": ["Whiskey", "Blended"],
+    "img": "./images/Balcones.jpg",
+    "quantity": 10
+    
+},
+{
+    "id": 10,
+    "title":"Crystal Creek Moonshine",
+    "price": 29.99,
+    "distillery":  "Crystal Creek Distillery",
+    "location": "Spicewood, TX",
+    "keyword": ["Moonshine"],
+    "img": "./images/CCMoonshine.png",
+    "quantity": 0
+    
+},
+{
+    "id": 11,
+    "title":"Rebecca Creek Whiskey",
+    "price": 29.99,
+    "distillery":  "Rebecca Creek Distillery",
+    "location": "San Antonio, TX",
+    "keyword": ["Whiskey"],
+    "img": "./images/Rebecca.jpeg",
+    "quantity": 20
+    
+}
+]
+
+ 
