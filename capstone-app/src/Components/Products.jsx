@@ -75,7 +75,7 @@ export default function Products(props) {
 
 
 
-
+// old code for display
 
 /*function Products() {
     

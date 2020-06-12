@@ -24,7 +24,9 @@ React.useEffect(() => {
         
     <div className="container">
     
-    {props.cart.map(products => <div> {products.title} @ $ {products.price} </div>)}
+    {props.cart.map(products => <div> {products.title} / {products.keyword} @ $ {products.price} </div>)}
+
+    <button>Pay Now</button>
         
     </div>
 

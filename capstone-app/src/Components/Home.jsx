@@ -14,7 +14,7 @@ function Home (){
 
 
 
-        
+        //Home page for age verification
       
 
         
@@ -28,7 +28,6 @@ function Home (){
         </nav>
         
       
-
 
         <Route exact path='./Dead'></Route>
 
