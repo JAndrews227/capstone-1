@@ -1,16 +1,50 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Select from 'react-select';
+import Data from '../Data/data.json';
+
+
+const searchList = Data.map(
+    
+    ( { title } ) => {
+        return{
+        
+        
+            value: title,
+            label: title
+            
+        }
+    }
+);
+
+class SearchBar extends Component {
+    state = {
+        selectedOption: null,
+    }
+
+    handleChange = selectedOption => {
+        this.setState ({ selectedOption })
+    }
+
+    render() {
+        return (
+
+            <div className='bar'>
+                    <Select
+                        placeHolder="What's Your Spirit....?"
+                        value={this.selectedOption}
+                        options={searchList}
+                        onChange={this.handleChange}
+                        openMenuOnClick={false}
+                    />
+
+            </div>
+        )
+
+
+}}
+
+export default SearchBar;
 
 
 
-const keyword = [
-
-    {label: "Whiskey", value: 1},
-    {label: "Bourbon", value: 2},
-    {label: "Blended", value: 3},
-    {label: "Vodka", value: 4},
-    {label: "Moonshine", value: 5},
-];
-
-export default keyword;
 

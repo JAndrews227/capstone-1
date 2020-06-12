@@ -1,66 +1,98 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './Components/Home';
-import Cart from './Components/Cart';
-import Select from 'react-select';
+import { Route, Link } from 'react-router-dom';
+import Home from './Components/Home.jsx';
+import Cart from './Components/Cart.jsx';
+import Products from './Components/Products.jsx';
+import Data from './Data/data.json'
+import Search from './Components/Search.jsx';
+
+ 
 
 
 
 
 
-const keyword = [
-
-  {label: "Whiskey", value: 1},
-  {label: "Bourbon", value: 2},
-  {label: "Blended", value: 3},
-  {label: "Vodka", value: 4},
-  {label: "Moonshine", value: 5},
-];
 
 
-function App() {
-  return (
 
-      <Router>
-    <div className="App">
+      function App() {
 
-    <header className="headFoot"><h1>Texas Spirits</h1></header>
-    <nav>
+        const [products, setProducts] = useState([]);
+
+        const [cart, setCart] = useState([]);
+
+        useEffect(() => {
+
+          setProducts(Data);
+
+        },[])
+
+        useEffect(() => {
+
+         // console.log("data in </App>", products);
+         // console.log("cart in <App/>", cart)
         
-        <h3>Logo</h3>
-        <div className="bar">
-
+        })
         
-        <Select options={keyword} onChange={opt => 
-            console.log(opt.label, opt.value)} />
 
-        </div>
 
-            <ul className="links">
+        return (
 
-              
-
-              <li><Link to= {'/'} className="navLinks">Home</Link></li>
-              
-              
-              <li><Link to={"/cart"} className="navLinks">Cart</Link></li>
-
-                
-            </ul>
-        </nav>
     
-      <Switch>
+          <div className="App">
 
-        <Route exact path='/' component={Home} />
-        <Route path='/cart' component={Cart} />
+          <header className="head"><h1>Texas Spirits</h1></header>
+          
+          
+              
+                
+              
+              <nav>
+                <Search />
 
-      </Switch>
+                  <div>
+                    
+                    <Link to= {"/"} className="navLinks">Home</Link>
 
 
-      <footer className="headFoot"><h5>All spirits are distilled in the Lone Star State</h5></footer>
-    </div>
-    </Router>
+                    <Link to= {"/Products"} className="navLinks" >Products</Link>
+                    
+                    
+                    <Link to={"/cart"}className="navLinks" >Cart</Link>
+                  
+                  </div>  
+                
+              </nav>
+              
+          
+              <Route exact path="/" render={() => <Home />}/>
+
+              <Route exact path="/Products">
+
+                <Products products={products} setProducts={setProducts} cart={cart} setCart={setCart} />
+
+              </Route>
+
+              <Route exact path="/cart">
+                <Cart cart={cart} setProducts={setProducts} products={products} />
+
+              </Route>
+            
+              
+
+            <body>
+            
+
+
+            </body>
+
+            
+
+
+            
+          </div>
+    
 
     
   );

@@ -1,9 +1,26 @@
-.headFoot{
+
+.open-head{
+  font-size: 100px;
   text-align:center;
-  color: white;
-  text-shadow: 2px 3px black;
+  color: red;
+  text-shadow: 2px 8px black;
+  
+
+
 }
 
+.head{
+  text-align:center;
+  color: white;
+  text-shadow: 1px 3px black;
+}
+
+.foot{
+  text-align:center;
+  color: black;
+  text-shadow: 0px 1px white;
+
+}
 
 .products {
   display: flex;
@@ -15,16 +32,17 @@
 .heading{
   text-align: center;
   font-size: 20px;
-  color: brown;
+  color: white;
   text-decoration: underline;
-  text-shadow: 1px 1.5px black;
+  text-shadow: 0px 2px brown;
 }
 
 .container{
-  border: 3px solid white;
+  border: 2px solid white;
   background-color: brown;
   color:white;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 10px;
   opacity: .8;
@@ -43,26 +61,39 @@ body{
 
 
 nav {
- display: flex;
- justify-content: space-around;
- align-items: center;
- min-height: 10vh;
- background: brown;
- color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: brown;
+  
 }
 
 .links {
   width: 65%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
+  
 
 }
 
 .navLinks{
 
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
   color: white;
+
+  /*color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+
+
 
 }
 
@@ -74,8 +105,8 @@ align-items: center;
 
 .bar{
 
-min-width: 150px;
-box-shadow: 0px 0px 10px 5px navy;
+min-width: 400px;
+
 background-color: brown;
 
 }
@@ -86,6 +117,18 @@ background-color: brown;
   border-radius: 4px;
   padding: 1px;
   max-width: 200px;
-  height: 175px;
+  height: 250px;
 
+}
+
+b{
+
+  color: brown;
+
+}
+
+h4{
+
+color:white;
+text-shadow: 1px 1px black
 }
