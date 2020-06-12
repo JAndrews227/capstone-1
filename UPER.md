@@ -6,7 +6,7 @@
 * R = "Reflect" / "Refactor"
 
 <h2>1. Understanding the Problem</h2>
-*
+
 *
 *
 *

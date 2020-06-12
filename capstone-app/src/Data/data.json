@@ -1,0 +1,127 @@
+ [
+
+    {
+
+    "id": 1,
+    "title":"TX Blended Whiskey",
+    "price": 29.99,
+    "distillery":  "Firestone & Robertson Distilling Co.",
+    "location": "Fort Worth, TX",
+    "keyword": ["Blended"],
+    "img": "/images/TXWhiskey.jpg",
+    "quantity": 20,
+    "SKU": 1234
+    
+},
+{
+    "id": 2,
+    "title":"Texas Ranger",
+    "price": 29.99,
+    "distillery":  "Rebecca Creek Distillery",
+    "location": "Timberwood Park, TX",
+    "keyword": ["Blended"],
+    "img": "/images/TXRanger.jpg",
+    "quantity": 20,
+    "SKU": 2345
+    
+},
+{
+    "id": 3,
+    "title":"Western Son",
+    "price": 29.99,
+    "distillery":  "Western Son Distillery",
+    "location": "Pilot Point, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/WesternSon.jpg",
+    "quantity": 20,
+    "SKU": 3456
+    
+},
+{
+    "id": 4,
+    "title":"Silver Star Whiskey",
+    "price": 29.99,
+    "distillery":  "Trinity River Distillery",
+    "location": "Fort Worth, TX",
+    "keyword": ["Whiskey"],
+    "img": "/images/SilverStar.jpg",
+    "quantity": 20,
+    "SKU": 4567
+    
+},
+{
+    "id": 5,
+    "title":"Garrison Brothers",
+    "price": 79.99,
+    "distillery":  "Garrison Brothers Distillery",
+    "location": "Hye, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/GarrisonBros.jpg",
+    "quantity":5,
+    "SKU": 5678
+    
+},
+{
+    "id": 6,
+    "title":"Tito's Vodka",
+    "price": 29.99,
+    "distillery":  "Mockingbird Distillery",
+    "location": "Austin, TX",
+    "keyword": ["Vodka"],
+    "img": "./images/Titos.jpg",
+    "quantity": 20,
+    "SKU": 6789
+    
+},
+{
+    "id": 7,
+    "title":"Rebecca Creek",
+    "price": 29.99,
+    "distillery":  "Rebecca Creek Distillery",
+    "location": "Timberwood Park, TX",
+    "keyword": ["Bourbon"],
+    "img": "./images/Rebecca.jpeg",
+    "quantity": 20,
+    "SKU": 7890
+    
+},
+{
+    "id": 8,
+    "title":"Deep Eddy Vodka",
+    "price": 29.99,
+    "distillery":  "Deep Eddy Vodka Distillery",
+    "location": "Buda, TX",
+    "keyword": ["Vodka"],
+    "img": "./images/DeepEddy.jpg",
+    "quantity": 15,
+    "SKU": 8910
+    
+},
+{
+    "id": 9,
+    "title":"Balcones",
+    "price": 29.99,
+    "distillery":  "Balcones Distilling",
+    "location": "Waco, TX",
+    "keyword": ["Blended"],
+    "img": "./images/Balcones.jpg",
+    "quantity": 10,
+    "SKU": 1011
+    
+},
+
+{
+    "id": 10,
+    "title":"Witherspoon",
+    "price": 29.99,
+    "distillery":  "BENDT Distilling Co.",
+    "location": "Lewisville, TX",
+    "keyword": ["Whiskey"],
+    "img": "./images/Witherspoon.jpg",
+    "quantity": 20,
+    "SKU": 1213
+    
+}
+]
+
+ 
