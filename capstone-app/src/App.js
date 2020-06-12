@@ -7,6 +7,7 @@ import Products from './Components/Products.jsx';
 import Data from './Data/data.json'
 import Search from './Components/Search.jsx';
 
+
  
 
 
@@ -18,9 +19,17 @@ import Search from './Components/Search.jsx';
 
       function App() {
 
+
+        //const to set useStates
+
         const [products, setProducts] = useState([]);
 
         const [cart, setCart] = useState([]);
+
+        /*function search(item) {
+        console.log(item);
+
+        }*/
 
         useEffect(() => {
 
@@ -59,6 +68,7 @@ import Search from './Components/Search.jsx';
                     <Link to= {"/Products"} className="navLinks" >Products</Link>
                     
                     
+
                     <Link to={"/cart"}className="navLinks" >Cart</Link>
                   
                   </div>  
@@ -66,7 +76,7 @@ import Search from './Components/Search.jsx';
               </nav>
               
           
-              <Route exact path="/" render={() => <Home />}/>
+              <Route exact path="/" render={() => <Home />}/> 
 
               <Route exact path="/Products">
 
@@ -75,17 +85,13 @@ import Search from './Components/Search.jsx';
               </Route>
 
               <Route exact path="/cart">
+
                 <Cart cart={cart} setProducts={setProducts} products={products} />
 
               </Route>
             
               
 
-            <body>
-            
-
-
-            </body>
 
             
 
@@ -99,3 +105,7 @@ import Search from './Components/Search.jsx';
 }
 
 export default App;
+
+//line 79 calls home page
+//line 83 calls products and sets props
+//line 89 calls cart and sets props

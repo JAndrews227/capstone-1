@@ -83,15 +83,11 @@ nav {
 
   width: 65%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
   color: white;
 
-  /*color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;*/
 
 
 
@@ -131,4 +127,12 @@ h4{
 
 color:white;
 text-shadow: 1px 1px black
+}
+
+.price{
+color:rgb(6, 247, 6);
+text-shadow: 1px .5px black;
+font-style: italic;
+font-weight: bold;
+
 }
